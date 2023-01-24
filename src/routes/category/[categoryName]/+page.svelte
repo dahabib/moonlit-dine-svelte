@@ -1,13 +1,12 @@
 <script>
     import { page } from '$app/stores';
     const category = $page.url.pathname.split("/",3)[2];
-
     export let data;
     const {meals} = data;
 </script>
 
 <svelte:head>
-    <title>{category} category - Moonlit Dine</title>
+    <title>{category} category - Moons Cuisine</title>
 </svelte:head>
 
 <section class="fluid bg-orange-200">

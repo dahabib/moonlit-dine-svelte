@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-    <title>{meal.strMeal} - Moonlit Dine</title>
+    <title>{meal.strMeal} - Moons Cuisine</title>
 </svelte:head>
 
 <!-- header section -->

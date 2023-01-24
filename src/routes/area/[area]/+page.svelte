@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <title>{area} recipes - Moonlit Dine</title>
+    <title>{area} recipes - Moons Cuisine</title>
 </svelte:head>
 
 <section class="fluid bg-orange-200">

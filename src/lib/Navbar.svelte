@@ -1,9 +1,9 @@
 <div class="relative bg-white">
-  <div class="mx-auto max-w-7xl px-6">
+  <div class="container mx-auto max-w-7xl px-6">
     <div class="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <a href="/">
-          <span class="text-xl">Moonlit Dine</span>
+          <span class="text-xl">Moons Cuisine</span>
         </a>
       </div>
       <div class="-my-2 -mr-2 md:hidden">
