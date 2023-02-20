@@ -6,8 +6,6 @@
     const instructions = meal.strInstructions.split(". ");
     const videoId = meal.strYoutube.split("=", 2)[1]; 
 
-    console.log(videoId);
-
     const ing = Object.values(Object.fromEntries(Object.entries(meal).filter(([key]) => key.includes("strIngredient")).filter(([_, value]) => value != null && value != "" )));
     const msr = Object.values(Object.fromEntries(Object.entries(meal).filter(([key]) => key.includes("strMeasure")).filter(([_, value]) => value != null && value != "" )));
     const ingredientsList = ing.map(function(x,i){
@@ -17,7 +15,7 @@
 </script>
 
 <svelte:head>
-    <title>{meal.strMeal} - Moons Cuisine</title>
+    <title>Moons Cuisine - {meal.strMeal}</title>
 </svelte:head>
 
 <!-- header section -->
@@ -65,7 +63,7 @@
 
 <!-- instructions and ingredients table -->
 <section class="text-gray-600 body-font bg-lime-100">
-    <div class="container px-5 py-16 mx-auto flex flex-wrap">
+    <div class="container px-5 py-16 mx-auto ">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-1/2 md:w-1/2 md:pr-10">
             <div class="p-4 text-gray-200 font-bold rounded-md text-center text-2xl mb-2 bg-gradient-to-r from-cyan-500 to-blue-500">
